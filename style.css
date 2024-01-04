@@ -1,0 +1,54 @@
+h1 {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frames {
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+input{
+  width: 200px;
+  height: 35px;
+  background-color:purple;
+  border:none;
+  margin:5px;
+  text-align:center;
+  color:white;
+  font-size:1.5rem;
+}
+
+.start {
+  background-color: green;
+}
+
+.reset {
+  background-color: #c7c7c7ff;
+}
+
+.addsw {
+  margin: 0;
+  margin-top : 2rem;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color:cyan;
+  padding:10px;
+}
